@@ -1,0 +1,31 @@
+/* Carousel css */
+
+.c-item{
+    height: 755px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* Upload a picture css */
+#image-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+
+}
+#image-gallery img{
+    height: 400px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+}
+
+.delete-btn{
+    position: absolute;
+}
